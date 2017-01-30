@@ -1,0 +1,65 @@
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	font-size: 4em;
+	margin-top: 77px;
+
+}
+
+h4 {
+	text-align: center;
+}
+
+h5 {
+	text-align: center
+
+}
+p {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+	text-align: left;
+}
+
+figure{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+figure img {
+    display: block;
+
+    width: 100%;
+    max-width: 100%;
+
+    height: auto;
+
+    border: wave pink;
+    padding: 3%;
+
+    align: middle;
+}
+
+figcaption {
+	font-size: 0.8em;
+	color: grey;
+}
+
+footer {
+	text-align: center;
+}
+
+.vertical-spacing-large {
+	margin-bottom: 110px;
+}

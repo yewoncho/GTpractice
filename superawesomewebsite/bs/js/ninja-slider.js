@@ -3,8 +3,8 @@ var nsOptions =
 {
     sliderId: "ninja-slider",
     transitionType: "slide",
-    autoAdvance: true,
-    rewind: false,
+    autoAdvance: false,
+    rewind: true,
     delay: "default",
     transitionSpeed: "default",
     aspectRatio: "9:6", // "?:100%" is for responsive scaling based on window height
@@ -12,7 +12,7 @@ var nsOptions =
     shuffle: false,
     startSlideIndex: 0,
     navigateByTap: true,
-    pauseOnHover: false,
+    pauseOnHover: true,
     keyboardNav: true,
     before: null,
     license: "mylicense"

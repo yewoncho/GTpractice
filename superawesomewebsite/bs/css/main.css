@@ -41,7 +41,7 @@ p {
 
 footer {
 	text-align: center;
-	font-size: 13px;
+	font-size: 15px;
 }
 
 img {
@@ -51,7 +51,6 @@ img {
     height: auto;
     max-height: auto;
 
-
     overflow: hidden;
 }
 
@@ -60,7 +59,16 @@ img {
 }
 
 .header{
+	background-image: url();
+	background-width: auto%;
+    background-height: auto%;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 
+.banner{
+	background-image: url("file:beach.jpg");
 	background-width: auto%;
     background-height: auto%;
     background-position: center;

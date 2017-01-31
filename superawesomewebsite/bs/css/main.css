@@ -1,3 +1,11 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
 
 h1 {
 	text-align: center;
@@ -9,8 +17,9 @@ h2 {
 
 h3 {
 	text-align: center;
-	font-size: 4em;
-	margin-top: 77px;
+	font-size: 3em;
+	margin-top: 65px;
+
 
 }
 
@@ -45,21 +54,33 @@ figure img {
 
     height: auto;
 
-    border: wave pink;
-    padding: 3%;
+    padding: 5%;
 
-    align: middle;
-}
+}    align: middle;
+
 
 figcaption {
 	font-size: 0.8em;
-	color: grey;
+	color: black;
 }
 
 footer {
 	text-align: center;
+	font-size: 10px;
 }
 
 .vertical-spacing-large {
-	margin-bottom: 110px;
+	margin-bottom: 65px;
+}
+
+
+.header{
+	background-image: url(https://randalltt.files.wordpress.com/2011/02/dsc_0390-enhanced-and-cropped.jpg);
+	background-width: auto%;
+    background-height: auto%;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+
 }

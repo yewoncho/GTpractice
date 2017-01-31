@@ -1,7 +1,15 @@
+<!--##################################################################################################-->
+
+<!-- Made by Yewon Stephanie Cho  -->
+<!-- January 2017  -->
+
+<!--##################################################################################################-->
+
 <!DOCTYPE html>
 <html class lang="en-US">
-
+ 
 	<head>
+		<!-- Info & Title --> 
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content = "width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes">
@@ -20,52 +28,90 @@
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="bs/js/bootstrap.min.js"></script>
 
-		
-
 		<!-- link to the CSS file -->
 		<link rel="stylesheet" href="bs/css/main.css">
 
 		<!-- link to the Jquery file -->
 		<script src="bs/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-
+		
 	</head>
 
+<!--##################################################################################################-->
+
 	<body>
-		<div>
+
+		<!-- Header -->
+		<div class="header">
+
+			<!-- Headlines -->
 			<h1 class="display"> <br> Curious, Intuitive, Logical, Open-Minded, Trustworthy </h1>
-			<h4 class="lead"> all is art </h4>
-			
-			<h2 class="display"> <br> <br> <br> ♥ Yewon Stephanie Cho ♥ </h2>
-			<h4 class="lead"> Hi everyone! Welcome to my website :D </h4>
+			<h4 class="lead"> all is art <br> <br> </h4>
+
+			<!-- audioplayer -->
+			<div class="container", align=center>
+				<audio src="audio/Maliblue.mp3" preload="auto" controls autoplay loop></audio>
+			</div>
+		
+			<!-- Empty Row (Bottom Margin)-->
+			<div class="row">
+				<div class="col-xs-12 vertical-spacing-large">
+				</div>
+			</div>
+
+			<!-- More Headlines -->
+			<h2 class="display"> ♥ Yewon Stephanie Cho ♥ </h2>
+			<h4 class="lead"> Hey there! Welcome to my website :D </h4>
+
+			<!-- Empty Row (Bottom Margin)-->
+			<div class="row">
+				<div class="col-xs-12 vertical-spacing-large">
+				</div>
+			</div>
+
 		</div> 
 
-			<div class="container">
+<!--##################################################################################################-->
+		
+		<!-- Answers to the questions (column text) -->
+		<div class="container">
+			<div class="row">
+
+				<!-- Column1: Motivation -->
+				<div class="col-md-4">
+					<h3 class="display"> Motivation</h3>
+						<p>My motivaiton for joining Growth Tribe are:<br>
+						(a) to explore and build on startup related knowledge and skills led by experienced professionals, particularly in marketing and development <br>
+						(b) to gain more innovative and creative insight in the context of commercial business <br>
+						(c) to better discover my own strengths and weaknesses <br>
+						(d) to meet others that are like myself and learn from working together</p>
+				</div>
+
+				<!-- Column2: Unique -->
+				<div class="col-md-4">
+					<h3 class="display"> Unique </h3>
+    					<p>I'm relatively unique because I'm an anti-capitalist living a rather capitalistic life. I also happen to be a beach girl living in the cold, palm-tree-less Amsterdam!! The city is lovely regardless :) </p>
+				</div>
+
+				<!-- Column3: Funny -->
+				<div class="col-md-4">
+					<h3 class="display"> Funny? </h3>
+						<p>I've had the exact same hair style since the age of 5! </p>
+				</div>
+
+				<!-- Empty Row (Bottom Margin)-->
 				<div class="row">
 					<div class="col-xs-12 vertical-spacing-large">
 					</div>
 				</div>
-				<div class="row">
-				
-						<div class="col-md-4">
 
-							<h3 class="display"> Motivation</h3>
-								<p>My motivaiton for joining Growth Tribe are:<br>
-								(a) to explore and build on startup related knowledge and skills led by experienced professionals, particularly in marketing and development <br>
-								(b) to gain more innovative and creative insight in the context of commercial business <br>
-								(c) to better discover my own strengths and weaknesses <br>
-								(d) to meet others that are like myself and learn from working together</p>
-						</div>
+			</div>
+		</div>
 
-						<div class="col-md-4">
-							<h3 class="display"> Unique </h3>
-            					<p>I'm relatively unique because I'm an anti-capitalist living a rather capitalistic life. I also happen to be a beach girl living in the cold, palm-tree-less Amsterdam!! The city is lovely regardless :) </p>
-						</div>
+<!--##################################################################################################-->
 
-						<div class="col-md-4">
-							<h3 class="display"> Funny? </h3>
-								<p>I've had the exact same hair style since the age of 5! </p>
-						</div>
-				</div>
+		<!-- images -->	
+
+		<div class="container", align=center>
 
 			<figure>
 				<img src = "img/1.jpg" class="img-fluid" alt="Responsive image" align="middle">
@@ -96,24 +142,39 @@
 				<img src = "img/6.jpg" class="img-fluid" alt="Responsive image" align="middle">
 				<figcaption align = "middle"> Evgeny Kissin playing the piano -- I love playing the piano but can't find a photo of myself doing it, so I add a photo of one of my favorite pianists :) </figcaption>
 			</figure>
+
 		</div>
 
-		<div>
+<!--##################################################################################################-->
+
+		<!-- footer -->
+		<div class="footer">
 			<footer>
-				FOOTER GOES HERE
+				♥ ~ Growth Tribe ~ Winter 2017 ~ ♥
 			</footer>
 		</div>
 
+<!--##################################################################################################-->
+
+		<!-- JQuery PlugIns -->
+
+		<!-- Responsive Texts -->
+		<script src="bs/js/jquery.fittext.js"></script>
+		<script> 
+			jQuery("h1").fitText(2, { minFontSize: '25px', maxFontSize: '50px' });
+			jQuery("h2").fitText(2, { minFontSize: '20px', maxFontSize: '38px' });
+		</script>
+
+		<!-- Responsive Audio Player -->
+		<script src="bs/js/audioplayer.js"></script>
+		<script>
+			$( function())
+			{
+				$('audio').audioPlayer();
+			}
+		</script>
+
 	</body>
-
-	<script src="bs/js/jquery.fittext.js"></script>
-
-	<script> 
-		jQuery("h1").fitText(2, { minFontSize: '25px', maxFontSize: '50px' });
-		jQuery("h2").fitText(2, { minFontSize: '20px', maxFontSize: '38px' });
-
-	</script>
-
-
 </html>
 
+<!--##################################################################################################-->

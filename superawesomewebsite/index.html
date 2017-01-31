@@ -9,6 +9,7 @@
 <html class lang="en-US">
  
 	<head>
+
 		<!-- Info & Title --> 
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,24 +17,33 @@
 
 		<title> ♥ Steph | Welcome to My Website ♥ </title>
 
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="bs/css/bootstrap.min.css">
-
-		<!-- Optional theme -->	
-		<link rel="stylesheet" href="bs/css/bootstrap-theme.min.css">
-
-		<!-- link to Jquery -->	
+		<!-- link to the Jquery file -->	
 		<script src ="bs/js/jquery-3.1.1.js"></script>
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="bs/js/bootstrap.min.js"></script>
+		<!-- link to the Jquery file Minified -->
+		<script src="bs/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="bs/css/bootstrap.min.css">
+		<!-- Optional theme -->	
+		<link rel="stylesheet" href="bs/css/bootstrap-theme.min.css">
 
 		<!-- link to the CSS file -->
 		<link rel="stylesheet" href="bs/css/main.css">
 
-		<!-- link to the Jquery file -->
-		<script src="bs/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-		
+		<!-- link to the photo slider jQuery-->
+		<script src="bs/js/ninja-slider.js" type="text/javascript"></script>
+
+		<!-- link to the photo slider CSS file -->
+		<link rel="stylesheet" href="bs/css/ninja-slider.css">
+
+		<!-- link to the font1 -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+		<!-- link to the font2 -->
+		<link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
+
 	</head>
 
 <!--##################################################################################################-->
@@ -68,86 +78,85 @@
 				</div>
 			</div>
 
+			<!-- Empty Row (Bottom Margin)-->
+			<div class="row">
+				<div class="col-xs-12 vertical-spacing-large">
+				</div>
+			</div>
+
 		</div> 
 
 <!--##################################################################################################-->
 		
 		<!-- Answers to the questions (column text) -->
-		<div class="container">
-			<div class="row">
-
-				<!-- Column1: Motivation -->
-				<div class="col-md-4">
-					<h3 class="display"> Motivation</h3>
-						<p>My motivaiton for joining Growth Tribe are:<br>
-						(a) to explore and build on startup related knowledge and skills led by experienced professionals, particularly in marketing and development <br>
-						(b) to gain more innovative and creative insight in the context of commercial business <br>
-						(c) to better discover my own strengths and weaknesses <br>
-						(d) to meet others that are like myself and learn from working together</p>
-				</div>
-
-				<!-- Column2: Unique -->
-				<div class="col-md-4">
-					<h3 class="display"> Unique </h3>
-    					<p>I'm relatively unique because I'm an anti-capitalist living a rather capitalistic life. I also happen to be a beach girl living in the cold, palm-tree-less Amsterdam!! The city is lovely regardless :) </p>
-				</div>
-
-				<!-- Column3: Funny -->
-				<div class="col-md-4">
-					<h3 class="display"> Funny? </h3>
-						<p>I've had the exact same hair style since the age of 5! </p>
-				</div>
-
-				<!-- Empty Row (Bottom Margin)-->
+		<div class="answers">
+			<div class="container">
 				<div class="row">
-					<div class="col-xs-12 vertical-spacing-large">
+
+					<!-- Column1: Motivation -->
+					<div class="col-md-4">
+						<h3 class="display"> Motivation</h3>
+							<p>My motivaiton for joining Growth Tribe are:<br>
+							(a) to explore and build on startup related knowledge and skills led by experienced professionals, particularly in marketing and development <br>
+							(b) to gain more innovative and creative insight in the context of commercial business <br>
+							(c) to better discover my own strengths and weaknesses <br>
+							(d) to meet others that are like myself and learn from working together</p>
 					</div>
+
+					<!-- Column2: Unique -->
+					<div class="col-md-4">
+						<h3 class="display"> Unique </h3>
+	    					<p>I'm relatively unique because I'm an anti-capitalist living a rather capitalistic life. I also happen to be a beach girl living in the cold, palm-tree-less Amsterdam!! The city is lovely regardless :) </p>
+					</div>
+
+					<!-- Column3: Funny -->
+					<div class="col-md-4">
+						<h3 class="display"> Funny? </h3>
+							<p>I've had the exact same hair style since the age of 5! </p>
+					</div>
+
+					<!-- Empty Row (Bottom Margin)-->
+					<div class="row">
+						<div class="col-xs-12 vertical-spacing-large">
+						</div>
+					</div>
+
+					<!-- Empty Row (Bottom Margin)-->
+					<div class="row">
+						<div class="col-xs-12 vertical-spacing-large">
+						</div>
+					</div>
+
+				</div> 
+			</div> 
+		</div>
+
+<!--##################################################################################################-->
+
+		<!-- Photos: Slider -->
+		<div class="photos">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+				 <div id="ninja-slider">
+				        <div class="inner">
+				            <ul>
+							<li><img src="img/1.jpg"><div class="caption">Chilling @ KK's balcony in Phnom Penh, Cambodia - Spring 2012</div></li>
+							<li><img src="img/4.jpg"><div class="caption">Graduation day @ the Carré theatre in Amsterdam, the Netherlands - Summer 2015"</div></li>
+							<li><img src="img/5.jpg"><div class="caption">Tripaneer boat trip @ Westerparkt in Amsterdam, the Netherlands - Summer 2016</div></li>
+							<li><img src="img/2.jpg"><div class="caption">BBQ @ Hannah's in London, United Kingdom - Autumn 2016</div></li>
+							<li><img src="img/3.jpg"><div class="caption">Homemade Dumplings @ my aunt's in Yongin, South Korea - Winter 2017</div></li>
+							<li><img src="img/6.jpg"><div class="caption">Evgeny Kissin playing the piano -- I love playing the piano but can't find a photo of myself doing it, so I add a photo of one of my favorite pianists :)</div></li>
+				            </ul>
+				        </div>
+				    </div>
+				        </div>
+				    </div>
 				</div>
-
-			</div>
 		</div>
-
-<!--##################################################################################################-->
-
-		<!-- images -->	
-
-		<div class="container", align=center>
-
-			<figure>
-				<img src = "img/1.jpg" class="img-fluid" alt="Responsive image" align="middle">
-				<figcaption align = "middle"> Chilling @ KK's balcony in Phnom Penh, Cambodia - Spring 2012 </figcaption>
-			</figure>
-
-			<figure>
-				<img src = "img/4.jpg" class="img-fluid" alt="Responsive image" align="middle">
-				<figcaption align = "middle"> Graduation day @ the Carré theatre in Amsterdam, the Netherlands - Summer 2015 </figcaption>
-			</figure>
-		
-			<figure>
-				<img src = "img/5.jpg" class="img-fluid" alt="Responsive image" align="middle">
-				<figcaption align = "middle"> Tripaneer boat trip @ Westerparkt in Amsterdam, the Netherlands - Summer 2016 </figcaption>
-			</figure>		
-
-			<figure>
-				<img src = "img/2.jpg" class="img-fluid" alt="Responsive image" align="middle">	
-				<figcaption align = "middle"> BBQ @ Hannah's in London, United Kingdom - Autumn 2016 </figcaption>
-			</figure>
-
-			<figure>
-				<img src = "img/3.jpg" class="img-fluid" alt="Responsive image" align="middle">
-				<figcaption align = "middle"> Homemade Dumplings @ my aunt's in Yongin, South Korea - Winter 2017 </figcaption>
-			</figure>
-
-			<figure>
-				<img src = "img/6.jpg" class="img-fluid" alt="Responsive image" align="middle">
-				<figcaption align = "middle"> Evgeny Kissin playing the piano -- I love playing the piano but can't find a photo of myself doing it, so I add a photo of one of my favorite pianists :) </figcaption>
-			</figure>
-
-		</div>
-
-<!--##################################################################################################-->
 
 		<!-- footer -->
+		<br><br>
 		<div class="footer">
 			<footer>
 				♥ ~ Growth Tribe ~ Winter 2017 ~ ♥
@@ -167,14 +176,24 @@
 
 		<!-- Responsive Audio Player -->
 		<script src="bs/js/audioplayer.js"></script>
+
+		<!-- Responsive Photo Slider -->
 		<script>
-			$( function())
-			{
-				$('audio').audioPlayer();
-			}
+			var nsOptions = {
+		    sliderId: "ninja-slider",
+		    transitionType: "slide",
+		    autoAdvance: false,
+		    rewind: true,
+		    aspectRatio: "9:6",
+		    initSliderByCallingInitFunc: false,
+		    shuffle: false,
+		    startSlideIndex: 0, //0-based
+		    navigateByTap: true,
+		    keyboardNav: true,
+		    before: null,
+			};
+			var nslider = new NinjaSlider(nsOptions);
 		</script>
 
 	</body>
 </html>
-
-<!--##################################################################################################-->
